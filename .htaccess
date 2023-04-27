@@ -1,0 +1,9 @@
+Options +FollowSymLinks -MultiViews
+Options -Indexes
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^dvut$ /?page=dvut
+RewriteRule ^unvoted$ /?page=unvoted
+RewriteRule ^login$ /?page=login
+RewriteRule ^logout$ /logout.php
